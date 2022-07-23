@@ -11,7 +11,7 @@ export default function Home({posts}) {
       <Head>
         <title>tekXplorer</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://kit.fontawesome.com/34cfd915df.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/34cfd915df.js" crossOrigin="anonymous"></script>
       </Head>
 
       <FeaturedPosts/>
@@ -20,7 +20,7 @@ export default function Home({posts}) {
 
         <div className='lg:col-span-9 col-span-4 flex flex-row flex-wrap'>
           {
-            posts.map((post) =>  <PostCard post ={post.node} key={post.title}/>)
+            posts.map((post) =>  <PostCard post ={post.node} key={post.node.title}/>)
           }
         </div>
 

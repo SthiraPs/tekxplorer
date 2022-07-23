@@ -11,3 +11,4 @@ export { default as Author } from './Author';
 export { default as FeaturedPostCard } from './FeaturedPostCard';
 export { default as Footer } from './Footer';
 export { default as SpinnerLoading } from './SpinnerLoading';
+export { default as Loader } from './Loader';
