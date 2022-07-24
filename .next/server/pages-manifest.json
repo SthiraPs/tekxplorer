@@ -1,7 +1,9 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/api/comments": "pages/api/comments.js",
   "/": "pages/index.js",
-  "/404": "pages/404.js"
+  "/post/[slug]": "pages/post/[slug].js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
 }
